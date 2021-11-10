@@ -1,0 +1,39 @@
+
+body{
+    background-image: url(media/backgroundwhite.jpg);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card{
+    margin: 20px;
+    border: none !important;
+    background-color: transparent;
+}
+
+.cardtitle .cardprice{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    background: transparent;
+}
+
+.cardtitle{
+    width: 318px;
+    font-size: 30px;
+}
+
+
+.cardpic{
+    height: 461px;
+    width: 318px;
+    /* background: url(media/kad_te_bajka_sastavi_a_zivot_rastavi_vv.jpeg);
+} */
+}
+
+.cardpic:hover{
+    height: 461px;
+    width: 318px;
+    /* background:  url(media/kad_te_bajka_sastavi_a_zivot_rastavi_vv.jpeg); */
+    filter: white;
+    opacity: 0.8;
+}
