@@ -1,11 +1,23 @@
 
 body{
-    background-image: url(media/backgroundwhite.jpg);
+    background-image: url(media/background3.jpg);
     font-family: 'Roboto', sans-serif;
-
 }
 
-/* navbar */
+.container{
+    
+}
+
+.row{
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    margin-bottom: 50px;
+}
 
 .navmenu{
     background: url(media/option.png);
@@ -13,15 +25,24 @@ body{
     width: 32px;
 }
 
+.logo{
+    font-size: 30px;
+}
 
+/* REVOLVER */
 
+.revolver{
+    margin-bottom: 100px;
+    width: 100%;
+    justify-content: center;
+}
 
 
 
 
 /* content */
 .card{
-    margin: 20px;
+    margin: 30px;
     border: none !important;
     background-color: transparent;
 }
@@ -37,7 +58,6 @@ body{
     font-size: 30px;
 }
 
-
 .cardpic{
     height: 461px;
     width: 318px;
@@ -48,7 +68,37 @@ body{
 .cardpic:hover{
     height: 461px;
     width: 318px;
-    /* background:  url(media/kad_te_bajka_sastavi_a_zivot_rastavi_vv.jpeg); */
+    /* background: url(media/kad_te_bajka_sastavi_a_zivot_rastavi_vv.jpeg); */
     filter: white;
     opacity: 0.8;
+}
+
+/* Single Book Styles */
+
+.col{padding: 20px;}
+
+.booktitle{
+    font-size: 50px;
+}
+
+.bookauthor{
+    font-size: 30px;
+}
+
+.bookdesc{
+    padding: 40px;
+    border:0px;
+    border-bottom: 2px;
+    border-style:solid;
+    border-color: black;
+}
+
+.btn{
+    text-decoration: underline;
+}
+
+/* LANDING PAGE */
+
+.skalarcontainer{
+    justify-items: center;
 }
