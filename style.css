@@ -1,6 +1,7 @@
 
 body{
-    background-image: url(media/background3.jpg);
+    /* background-image: url(media/background3.jpg); */
+    background: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,13 +21,21 @@ body{
 }
 
 .navmenu{
-    background: url(media/option.png);
-    height: 32px;
-    width: 32px;
+    /* background-image: url(media/shopping-cart\ \(1\).png); */
+    height: 50px;
+    width: 50px;
 }
 
+.navmenu img{
+    display: block;
+    margin: auto;
+} 
+
 .logo{
-    font-size: 30px;
+    /* background: url(media/SkalarBooks-logo.png);
+    height: 15px;
+    width: 75px;
+} */
 }
 
 /* REVOLVER */
@@ -34,8 +43,13 @@ body{
 .revolver{
     margin-bottom: 100px;
     width: 100%;
-    justify-content: center;
+    margin: auto;
 }
+
+.mySlides{
+    margin: auto;
+}
+
 
 
 
@@ -100,5 +114,35 @@ body{
 /* LANDING PAGE */
 
 .skalarcontainer{
+    padding-top: 200px;
+    justify-content: center;
     justify-items: center;
+    margin: auto;
+}
+
+.skalartitle img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.skalardesc{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.skalarbtn{
+    margin-top: 40px;
+}
+
+.button{
+    margin: auto;
+    width: 120px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.button a{
+    color: black;
 }
